@@ -213,7 +213,9 @@ export default function MainScreen() {
             </div>
             <div className={classes.plansContainer}>
 
-
+ {shoppingOptions.map(option => (
+                <ShoppingOptionCard key={option.level} {...option} onClick={() => onShopNow(option.name)} />
+              ))}
               
             </div>
           </section>
