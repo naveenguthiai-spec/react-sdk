@@ -1,4 +1,4 @@
-// from react_root.js
+// * from react_root.js 
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router';
 import TopLevelApp from '../src/samples/TopLevelApp';
